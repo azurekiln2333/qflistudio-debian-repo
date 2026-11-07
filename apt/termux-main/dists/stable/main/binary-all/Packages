@@ -1,0 +1,253 @@
+Package: apt-transport-tor
+Version: 2.8.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 44
+Depends: tor
+Filename: pool/main/all/apt-transport-tor_2.8.1-1_all.deb
+Size: 908
+MD5sum: 676783c9247276524bd190101fb47710
+SHA1: bc9e484ecfbea0419c370b7bb20d39bcb9ebe6c2
+SHA256: dae672360e561d2ff1dc50e6cf51308e30a5b87093e2eb51f753517d01f09344
+Homepage: https://packages.debian.org/apt
+Description: APT transport for anonymous package downloads via Tor
+
+Package: ca-certificates
+Version: 1:2025.02.25
+Architecture: all
+Maintainer: @termux
+Installed-Size: 272
+Filename: pool/main/all/ca-certificates_12025.02.25_all.deb
+Size: 127964
+MD5sum: 6a3324584f5134bcbefeacb717f52bfd
+SHA1: 9c7e637625b53263d7d721a5007eba1ae5a90332
+SHA256: 2c84614a8852754d2f045b2bf110e23f994f141a94b7c70de08fc80505c564bc
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+
+Package: ca-certificates-java
+Version: 1:2025.02.25
+Architecture: all
+Maintainer: @termux
+Installed-Size: 216
+Filename: pool/main/all/ca-certificates-java_12025.02.25_all.deb
+Size: 117072
+MD5sum: 5711b0d4f694a936e0d00d838f22a49d
+SHA1: 7564a79f2a32fdb5d8a654182f60663af6459012
+SHA256: 13f17251322b64ab05be0d8e65393fe8a849360492437e0fe008fb59d6e96857
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
+Package: docbook-xml
+Version: 5.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2412
+Depends: libxml2-utils
+Breaks: docbook-xsl (<= 1.79.2-1)
+Filename: pool/main/all/docbook-xml_5.1_all.deb
+Size: 78220
+MD5sum: 1901733249f4688fb1b04a2f644ade26
+SHA1: 56f5a712341c5b15fce845abeb2b824152c6b538
+SHA256: 389151a41e0724614bb308630fcccf52f929465ac9a4d798a13f196f0be2789f
+Homepage: https://www.oasis-open.org/docbook/
+Description: A widely used XML scheme for writing documentation and help
+
+Package: docbook-xsl
+Version: 1.79.2-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 33412
+Depends: docbook-xml (= 5.1), libxml2-utils, xsltproc
+Filename: pool/main/all/docbook-xsl_1.79.2-2_all.deb
+Size: 1248264
+MD5sum: 05050ded5feae27b0b65260e1ba5b2ab
+SHA1: 7f3c67ff40061845119435399004a8993365d120
+SHA256: 14c88776d505d782b510d770572fa7503f11a4e87136d50f6052e0819dfe205d
+Homepage: https://docbook.org/
+Description: XML stylesheets for Docbook-xml transformations
+
+Package: dpkg-perl
+Version: 1.22.6-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 940
+Depends: perl, clang, make
+Filename: pool/main/all/dpkg-perl_1.22.6-1_all.deb
+Size: 126232
+MD5sum: 9a21ac65678ee6be61a0dae7345f4e7b
+SHA1: 750a2b0fcdaf35e754be65dd3d2dcb5016ea941e
+SHA256: 0591d4466536eb9f0f0c366e05b7e921db48388802afbddb9c15d3abf369bca7
+Homepage: https://packages.debian.org/dpkg
+Description: Perl modules for dpkg
+
+Package: dpkg-scanpackages
+Version: 1.22.6-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 56
+Depends: dpkg-perl
+Filename: pool/main/all/dpkg-scanpackages_1.22.6-1_all.deb
+Size: 6484
+MD5sum: 735a8eae7246687f9eec3e6b0c9f926c
+SHA1: 5cc6729fa024ab2701720e46f12016113513319c
+SHA256: 22e948a0a4d8e1285e173a265c47ba788ced80e49f686390d5af204dff8887aa
+Homepage: https://packages.debian.org/dpkg
+Description: Creates Packages index files
+
+Package: openjdk-17-source
+Version: 17.0-38
+Architecture: all
+Maintainer: @termux
+Installed-Size: 50464
+Filename: pool/main/all/openjdk-17-source_17.0-38_all.deb
+Size: 46728388
+MD5sum: 8d48da770d4da707c29a0d67db6d9616
+SHA1: cd0596cb6d183ed6f86dd48b2d9c0e93fb00dc78
+SHA256: 110413977eee4f1189afcd78545b6548e2f99220289fc08fc86674bf88d8c3ac
+Homepage: https://github.com/openjdk/mobile
+Description: Source files for openjdk-17
+
+Package: python-ensurepip-wheels
+Version: 3.12.9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1820
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/main/all/python-ensurepip-wheels_3.12.9_all.deb
+Size: 1782232
+MD5sum: 391aa56e1ea019fd0dbc6f43be72a530
+SHA1: 16906c3e4361dfb285dbaffcb513cfd6b220bf31
+SHA256: 85978d5537f37fde969bf76c4de751f7e8d267b23e5e55fa8f1289898b94c5da
+Homepage: https://python.org/
+Description: Wheels for Python ensurepip
+
+Package: python-xcbgen
+Version: 1.17.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 444
+Recommends: python
+Breaks: xcb-proto (<< 1.15.2)
+Replaces: xcb-proto (<< 1.15.2)
+Filename: pool/main/all/python-xcbgen_1.17.0-1_all.deb
+Size: 44588
+MD5sum: 97d90be79cced9c612d7492eb9399dc3
+SHA1: 0f0ba910aa57bbeecf955bdf2a1fa97a18df52c4
+SHA256: 9bbb05cdc4dc5b0eeeacbe36929c90cd5785139a3477cec004771ced7e1facfc
+Homepage: https://xcb.freedesktop.org/
+Description: The xcbgen Python module
+
+Package: termux-am
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Michal Bednarski @michalbednarski
+Installed-Size: 620
+Conflicts: termux-tools (<< 0.51)
+Filename: pool/main/all/termux-am_0.8.0-1_all.deb
+Size: 577208
+MD5sum: 462f44db055df3ca4f0c8ee0b9862f63
+SHA1: 188622883c66392946a26e3f8be05e102cabd26f
+SHA256: e39bb25d57b88028392cf0c55faf4ffc58561f9f7df9f348c6be7af8964aa649
+Homepage: https://github.com/termux/TermuxAm
+Description: Android Oreo-compatible am command reimplementation
+
+Package: termux-keyring
+Version: 3.12-1
+Architecture: all
+Essential: yes
+Maintainer: @termux
+Installed-Size: 180
+Filename: pool/main/all/termux-keyring_3.12-1_all.deb
+Size: 39340
+MD5sum: bda1ffaf807b6537aafbbbd9f97cd5a7
+SHA1: f401e9f7bf44edca2dabd15b7f394c9ae549e0cb
+SHA256: d4ca92bc155d08837204ea3eaf3d10be0d377bdcbb7235ef78c21cf1e4fdff31
+Homepage: https://github.com/termux
+Description: GPG public keys for the official Termux repositories
+
+Package: termux-licenses
+Version: 2.1
+Architecture: all
+Essential: yes
+Maintainer: @termux
+Installed-Size: 612
+Filename: pool/main/all/termux-licenses_2.1_all.deb
+Size: 52560
+MD5sum: 48f27686730e47fb906065ba688b117d
+SHA1: 8e964a34095bc8dd7a29aef53b6caa970b4784f6
+SHA256: 8346451517b4c5fea96315270e084e90f54db8c58b9261664dadd0a8819bf235
+Homepage: https://termux.dev
+Description: Contains LICENSE files for common licenses
+
+Package: ttf-dejavu
+Version: 2.37-8
+Architecture: all
+Maintainer: @termux
+Installed-Size: 10108
+Filename: pool/main/all/ttf-dejavu_2.37-8_all.deb
+Size: 2460608
+MD5sum: d979ad265df6d9f37df15a6e7a1ed5c8
+SHA1: abf9816dce52805427f65a241ad53ef6f68e0be4
+SHA256: f808b85c806c511a9e13889f503fb515563526f7d817b9fd86c8d1e99356e4fe
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: xcb-proto
+Version: 1.17.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 812
+Conflicts: xcbproto
+Replaces: xcbproto
+Filename: pool/main/all/xcb-proto_1.17.0-1_all.deb
+Size: 78608
+MD5sum: 880a4845066fe9615560bb606a90e7c7
+SHA1: 58683777e1b8f88b0aa93a3e5928143e0dc0a4d1
+SHA256: 1ca488c21f78b143d443b41fa989d46619682f0a82802a64e4250a4afa5f1d82
+Homepage: https://xcb.freedesktop.org/
+Description: XML-XCB protocol descriptions
+
+Package: xorg-util-macros
+Version: 1.20.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/all/xorg-util-macros_1.20.2_all.deb
+Size: 21956
+MD5sum: 1df87ac35e5eda617b7998f54a5ea5b5
+SHA1: 6684a340844180604d6a942b37e36a75abb30a0d
+SHA256: 54da422703803848a569cc4cdf38c85e3b5a3495b9ad3fc178510560162f0ab7
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+
+Package: xorgproto
+Version: 2024.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2280
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Filename: pool/main/all/xorgproto_2024.1_all.deb
+Size: 247712
+MD5sum: bb23c2eb301667b5166458ca5707a862
+SHA1: 5d1c81250f4d082472ac312ac698f0e9c8a4eaf0
+SHA256: 52e0bf5801a710d82cef425a92eac751e93483a344f2b40525ad1233d870258f
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org X11 Protocol headers
+
+Package: xtrans
+Version: 1.6.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 296
+Filename: pool/main/all/xtrans_1.6.0_all.deb
+Size: 39872
+MD5sum: 21394e043d3320c8db437c1d7f7c87e3
+SHA1: 71639a790220304b692f75a32a6d248a778cb35a
+SHA256: c914e50103333051e536784f85798592781087f8cc2e6b18f4ef9b1a7a650da2
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+
